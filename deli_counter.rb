@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(array)
 puts "The line is currently empty." if array.empty?
-counter = 1 
+current_line = 
 array.each do |i|
 puts "The line is currently: #{counter}. #{i}"
 counter += 1 
